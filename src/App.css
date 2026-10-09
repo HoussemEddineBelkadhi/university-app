@@ -1,0 +1,23 @@
+h1 {
+  color: #1bb8c7;
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  color: #000000;
+  text-align: center;
+  text-decoration: underline;
+  
+}
+button {
+  text-transform: uppercase;
+  background-color: #1bb8c7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+}
+body {
+  background-color: #f0f0f0;
+  font-family: jetbrains mono, monospace;
+}
