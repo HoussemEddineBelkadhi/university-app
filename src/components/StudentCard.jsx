@@ -3,7 +3,7 @@ import archlinux from '../assets/arch-linux.png'
 
 class student {
   nom ="Belkadhi";
-  prenom ="Houssemeddine";
+  prenom ="Houssem Eddine";
   age = 20;
   email ="houssemeddinebelkadhi256@gmail.com";
   phone ="94727471";
@@ -15,21 +15,22 @@ class student {
 }
 
 function StudentCard() {
+  const StudentData = new student()
 
   return (
     <div>
       <h1>Fiche Etudiant</h1>
       <img src={archlinux} alt="arch-linux" />
-      <p>Nom: {student.nom}</p>
-      <p>Prénom: {student.prenom}</p>
-      <p>Âge: {student.age}</p>
-      <p>Email: {student.email}</p>
-      <p>Phone: {student.phone}</p>
-      <p>Filière: {student.filiere}</p>
-      <p>Année d'étude: {student.AnneeEtude}</p>
-      <p>Classe: {student.classe}</p>
-      <p>Groupe: {student.grupe}</p>
-      <p>Ville: {student.ville}</p>
+      <p>Nom: {StudentData.nom}</p>
+      <p>Prénom: {StudentData.prenom}</p>
+      <p>Âge: {StudentData.age}</p>
+      <p>Email: {StudentData.email}</p>
+      <p>Phone: {StudentData.phone}</p>
+      <p>Filière: {StudentData.filiere}</p>
+      <p>Année d'étude: {StudentData.AnneeEtude}</p>
+      <p>Classe: {StudentData.classe}</p>
+      <p>Groupe: {StudentData.grupe}</p>
+      <p>Ville: {StudentData.ville}</p>
       <a href="mailto:houssemeddinebelkadhi256@gmail.com">      <button> contacter </button> </a>
     </div>
   )
