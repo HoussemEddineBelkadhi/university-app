@@ -21,3 +21,9 @@ body {
   background-color: #f0f0f0;
   font-family: jetbrains mono, monospace;
 }
+image {
+  width: 10px ;
+  height: 10px ;
+  padding: 10px 10px;
+
+}
